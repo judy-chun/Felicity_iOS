@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		130D57A020F568C600A8CD1D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 130D579F20F568C500A8CD1D /* GoogleService-Info.plist */; };
 		131743C2212F7F4500FAA9C9 /* Q20ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131743C1212F7F4500FAA9C9 /* Q20ViewController.swift */; };
 		131743C421304EAD00FAA9C9 /* TAndCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131743C321304EAD00FAA9C9 /* TAndCViewController.swift */; };
+		1326BEFC21968B7B00344A98 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1326BEFB21968B7B00344A98 /* GoogleService-Info.plist */; };
 		1327BCC420FFD64D0008CBF6 /* LogASessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1327BCC320FFD64D0008CBF6 /* LogASessionViewController.swift */; };
 		1327BCC621000A870008CBF6 /* CBTDefViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1327BCC521000A870008CBF6 /* CBTDefViewController.swift */; };
 		134AE0B521139483000C0858 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134AE0B421139482000C0858 /* SignUpViewController.swift */; };
@@ -76,9 +76,9 @@
 /* Begin PBXFileReference section */
 		10569E2100D6BE3344592C5D /* Pods_Feelicity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Feelicity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1304F5662168538E00D75A54 /* Feelicity-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Feelicity-Bridging-Header.h"; sourceTree = "<group>"; };
-		130D579F20F568C500A8CD1D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		131743C1212F7F4500FAA9C9 /* Q20ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q20ViewController.swift; sourceTree = "<group>"; };
 		131743C321304EAD00FAA9C9 /* TAndCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAndCViewController.swift; sourceTree = "<group>"; };
+		1326BEFB21968B7B00344A98 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1327BCC320FFD64D0008CBF6 /* LogASessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogASessionViewController.swift; sourceTree = "<group>"; };
 		1327BCC521000A870008CBF6 /* CBTDefViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBTDefViewController.swift; sourceTree = "<group>"; };
 		134AE0B421139482000C0858 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
@@ -231,7 +231,7 @@
 				138C305A20898579006D4129 /* Assets.xcassets */,
 				138C305C20898579006D4129 /* LaunchScreen.storyboard */,
 				138C305F20898579006D4129 /* Info.plist */,
-				130D579F20F568C500A8CD1D /* GoogleService-Info.plist */,
+				1326BEFB21968B7B00344A98 /* GoogleService-Info.plist */,
 				1304F5662168538E00D75A54 /* Feelicity-Bridging-Header.h */,
 			);
 			path = Feelicity;
@@ -389,7 +389,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				138C305E20898579006D4129 /* LaunchScreen.storyboard in Resources */,
-				130D57A020F568C600A8CD1D /* GoogleService-Info.plist in Resources */,
+				1326BEFC21968B7B00344A98 /* GoogleService-Info.plist in Resources */,
 				138C305B20898579006D4129 /* Assets.xcassets in Resources */,
 				138C305920898577006D4129 /* Main.storyboard in Resources */,
 			);

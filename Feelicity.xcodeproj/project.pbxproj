@@ -1,0 +1,908 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		130D57A020F568C600A8CD1D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 130D579F20F568C500A8CD1D /* GoogleService-Info.plist */; };
+		131743C2212F7F4500FAA9C9 /* Q20ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131743C1212F7F4500FAA9C9 /* Q20ViewController.swift */; };
+		131743C421304EAD00FAA9C9 /* TAndCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131743C321304EAD00FAA9C9 /* TAndCViewController.swift */; };
+		1327BCC420FFD64D0008CBF6 /* LogASessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1327BCC320FFD64D0008CBF6 /* LogASessionViewController.swift */; };
+		1327BCC621000A870008CBF6 /* CBTDefViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1327BCC521000A870008CBF6 /* CBTDefViewController.swift */; };
+		134AE0B521139483000C0858 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134AE0B421139482000C0858 /* SignUpViewController.swift */; };
+		134F9962212474A800E10B6C /* Q6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134F9961212474A800E10B6C /* Q6ViewController.swift */; };
+		134F9964212474C900E10B6C /* Q7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134F9963212474C900E10B6C /* Q7ViewController.swift */; };
+		134F9966212474D900E10B6C /* Q8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134F9965212474D900E10B6C /* Q8ViewController.swift */; };
+		134F9968212474E700E10B6C /* Q9ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134F9967212474E700E10B6C /* Q9ViewController.swift */; };
+		134F996A212474F500E10B6C /* Q10ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134F9969212474F500E10B6C /* Q10ViewController.swift */; };
+		134F996C2124750200E10B6C /* Q11ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134F996B2124750200E10B6C /* Q11ViewController.swift */; };
+		134F996E2124751600E10B6C /* Q12ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134F996D2124751500E10B6C /* Q12ViewController.swift */; };
+		134F99702124752D00E10B6C /* Q13ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134F996F2124752D00E10B6C /* Q13ViewController.swift */; };
+		134F99722124753800E10B6C /* Q14ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134F99712124753800E10B6C /* Q14ViewController.swift */; };
+		134F99742124754300E10B6C /* Q15ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134F99732124754300E10B6C /* Q15ViewController.swift */; };
+		134F99762124754F00E10B6C /* Q16ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134F99752124754F00E10B6C /* Q16ViewController.swift */; };
+		134F99782124755B00E10B6C /* Q17ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134F99772124755B00E10B6C /* Q17ViewController.swift */; };
+		134F997A2124756600E10B6C /* Q18ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134F99792124756600E10B6C /* Q18ViewController.swift */; };
+		134F997C2124757300E10B6C /* Q19ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134F997B2124757300E10B6C /* Q19ViewController.swift */; };
+		134F997E2124758800E10B6C /* PostMoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134F997D2124758800E10B6C /* PostMoodViewController.swift */; };
+		134F99802124759800E10B6C /* EndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134F997F2124759800E10B6C /* EndViewController.swift */; };
+		134F99822125073200E10B6C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134F99812125073200E10B6C /* User.swift */; };
+		134F9984212513B900E10B6C /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134F9983212513B900E10B6C /* Journal.swift */; };
+		135C7330212B3372001FEAA2 /* Thought.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135C732F212B3372001FEAA2 /* Thought.swift */; };
+		1382BA5A212795EF00C35F08 /* CBTDiagramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382BA59212795EF00C35F08 /* CBTDiagramViewController.swift */; };
+		138C13CC213613B20076A629 /* CognitiveDistortionsPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138C13CB213613B20076A629 /* CognitiveDistortionsPopup.swift */; };
+		138C13CE2136141A0076A629 /* ReferencesPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138C13CD2136141A0076A629 /* ReferencesPopup.swift */; };
+		138C305420898577006D4129 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138C305320898577006D4129 /* AppDelegate.swift */; };
+		138C305620898577006D4129 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138C305520898577006D4129 /* SignInViewController.swift */; };
+		138C305920898577006D4129 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 138C305720898577006D4129 /* Main.storyboard */; };
+		138C305B20898579006D4129 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 138C305A20898579006D4129 /* Assets.xcassets */; };
+		138C305E20898579006D4129 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 138C305C20898579006D4129 /* LaunchScreen.storyboard */; };
+		138C306920898579006D4129 /* FeelicityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138C306820898579006D4129 /* FeelicityTests.swift */; };
+		138C307420898579006D4129 /* FeelicityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138C307320898579006D4129 /* FeelicityUITests.swift */; };
+		13919A042129EB7E009493ED /* emotionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13919A032129EB7E009493ED /* emotionsCell.swift */; };
+		13919A062129EDA9009493ED /* Emotions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13919A052129EDA9009493ED /* Emotions.swift */; };
+		13919A08212A4017009493ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13919A07212A4017009493ED /* ViewController.swift */; };
+		337E71F27B9BA5BB78FFD533 /* Pods_Feelicity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10569E2100D6BE3344592C5D /* Pods_Feelicity.framework */; };
+		33D706AC64151B5E43B82044 /* Pods_FeelicityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD96EDB7D34BB097FA7D336D /* Pods_FeelicityUITests.framework */; };
+		D4D8351E212752C500225736 /* PreMoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D8351D212752C500225736 /* PreMoodViewController.swift */; };
+		D4D83522212789AD00225736 /* Q1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D83521212789AD00225736 /* Q1ViewController.swift */; };
+		D4D8352421278CBA00225736 /* Q2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D8352321278CBA00225736 /* Q2ViewController.swift */; };
+		D4D8352621278DF400225736 /* Q3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D8352521278DF400225736 /* Q3ViewController.swift */; };
+		D4D8352821278F3100225736 /* Q4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D8352721278F3100225736 /* Q4ViewController.swift */; };
+		D4D8352A2127911600225736 /* Q5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D835292127911600225736 /* Q5ViewController.swift */; };
+		FB31C8EB71971ACA4AE18494 /* Pods_FeelicityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB779971DBACD2B744F2510 /* Pods_FeelicityTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		138C306520898579006D4129 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 138C304820898576006D4129 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 138C304F20898576006D4129;
+			remoteInfo = Feelicity;
+		};
+		138C307020898579006D4129 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 138C304820898576006D4129 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 138C304F20898576006D4129;
+			remoteInfo = Feelicity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10569E2100D6BE3344592C5D /* Pods_Feelicity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Feelicity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1304F5662168538E00D75A54 /* Feelicity-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Feelicity-Bridging-Header.h"; sourceTree = "<group>"; };
+		130D579F20F568C500A8CD1D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		131743C1212F7F4500FAA9C9 /* Q20ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q20ViewController.swift; sourceTree = "<group>"; };
+		131743C321304EAD00FAA9C9 /* TAndCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAndCViewController.swift; sourceTree = "<group>"; };
+		1327BCC320FFD64D0008CBF6 /* LogASessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogASessionViewController.swift; sourceTree = "<group>"; };
+		1327BCC521000A870008CBF6 /* CBTDefViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBTDefViewController.swift; sourceTree = "<group>"; };
+		134AE0B421139482000C0858 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		134F9961212474A800E10B6C /* Q6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q6ViewController.swift; sourceTree = "<group>"; };
+		134F9963212474C900E10B6C /* Q7ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q7ViewController.swift; sourceTree = "<group>"; };
+		134F9965212474D900E10B6C /* Q8ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q8ViewController.swift; sourceTree = "<group>"; };
+		134F9967212474E700E10B6C /* Q9ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q9ViewController.swift; sourceTree = "<group>"; };
+		134F9969212474F500E10B6C /* Q10ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q10ViewController.swift; sourceTree = "<group>"; };
+		134F996B2124750200E10B6C /* Q11ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q11ViewController.swift; sourceTree = "<group>"; };
+		134F996D2124751500E10B6C /* Q12ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q12ViewController.swift; sourceTree = "<group>"; };
+		134F996F2124752D00E10B6C /* Q13ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q13ViewController.swift; sourceTree = "<group>"; };
+		134F99712124753800E10B6C /* Q14ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q14ViewController.swift; sourceTree = "<group>"; };
+		134F99732124754300E10B6C /* Q15ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q15ViewController.swift; sourceTree = "<group>"; };
+		134F99752124754F00E10B6C /* Q16ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q16ViewController.swift; sourceTree = "<group>"; };
+		134F99772124755B00E10B6C /* Q17ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q17ViewController.swift; sourceTree = "<group>"; };
+		134F99792124756600E10B6C /* Q18ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q18ViewController.swift; sourceTree = "<group>"; };
+		134F997B2124757300E10B6C /* Q19ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q19ViewController.swift; sourceTree = "<group>"; };
+		134F997D2124758800E10B6C /* PostMoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostMoodViewController.swift; sourceTree = "<group>"; };
+		134F997F2124759800E10B6C /* EndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndViewController.swift; sourceTree = "<group>"; };
+		134F99812125073200E10B6C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		134F9983212513B900E10B6C /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
+		135C732F212B3372001FEAA2 /* Thought.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thought.swift; sourceTree = "<group>"; };
+		1382BA59212795EF00C35F08 /* CBTDiagramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBTDiagramViewController.swift; sourceTree = "<group>"; };
+		138C13CB213613B20076A629 /* CognitiveDistortionsPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CognitiveDistortionsPopup.swift; sourceTree = "<group>"; };
+		138C13CD2136141A0076A629 /* ReferencesPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferencesPopup.swift; sourceTree = "<group>"; };
+		138C305020898576006D4129 /* Feelicity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Feelicity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		138C305320898577006D4129 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		138C305520898577006D4129 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		138C305820898577006D4129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		138C305A20898579006D4129 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		138C305D20898579006D4129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		138C305F20898579006D4129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		138C306420898579006D4129 /* FeelicityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeelicityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		138C306820898579006D4129 /* FeelicityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelicityTests.swift; sourceTree = "<group>"; };
+		138C306A20898579006D4129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		138C306F20898579006D4129 /* FeelicityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeelicityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		138C307320898579006D4129 /* FeelicityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelicityUITests.swift; sourceTree = "<group>"; };
+		138C307520898579006D4129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13919A032129EB7E009493ED /* emotionsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emotionsCell.swift; sourceTree = "<group>"; };
+		13919A052129EDA9009493ED /* Emotions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emotions.swift; sourceTree = "<group>"; };
+		13919A07212A4017009493ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1879F8FD42C5802E621C343E /* Pods-FeelicityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeelicityTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FeelicityTests/Pods-FeelicityTests.release.xcconfig"; sourceTree = "<group>"; };
+		40B1EF7E0305471429A9BAA8 /* Pods-FeelicityUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeelicityUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FeelicityUITests/Pods-FeelicityUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		75C30687E9CF337D69D524F2 /* Pods-Feelicity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Feelicity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Feelicity/Pods-Feelicity.debug.xcconfig"; sourceTree = "<group>"; };
+		B8A49CB094FCFB3B6972BF87 /* Pods-Feelicity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Feelicity.release.xcconfig"; path = "Pods/Target Support Files/Pods-Feelicity/Pods-Feelicity.release.xcconfig"; sourceTree = "<group>"; };
+		BAB779971DBACD2B744F2510 /* Pods_FeelicityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FeelicityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F0991304A6FB04221AD534 /* Pods-FeelicityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeelicityTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FeelicityTests/Pods-FeelicityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD29209EA074A8B9DC42D857 /* Pods-FeelicityUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeelicityUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FeelicityUITests/Pods-FeelicityUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D4D8351D212752C500225736 /* PreMoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreMoodViewController.swift; sourceTree = "<group>"; };
+		D4D83521212789AD00225736 /* Q1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q1ViewController.swift; sourceTree = "<group>"; };
+		D4D8352321278CBA00225736 /* Q2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q2ViewController.swift; sourceTree = "<group>"; };
+		D4D8352521278DF400225736 /* Q3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q3ViewController.swift; sourceTree = "<group>"; };
+		D4D8352721278F3100225736 /* Q4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q4ViewController.swift; sourceTree = "<group>"; };
+		D4D835292127911600225736 /* Q5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q5ViewController.swift; sourceTree = "<group>"; };
+		FD96EDB7D34BB097FA7D336D /* Pods_FeelicityUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FeelicityUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		138C304D20898576006D4129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				337E71F27B9BA5BB78FFD533 /* Pods_Feelicity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		138C306120898579006D4129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB31C8EB71971ACA4AE18494 /* Pods_FeelicityTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		138C306C20898579006D4129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D706AC64151B5E43B82044 /* Pods_FeelicityUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		138C304720898576006D4129 = {
+			isa = PBXGroup;
+			children = (
+				138C305220898577006D4129 /* Feelicity */,
+				138C306720898579006D4129 /* FeelicityTests */,
+				138C307220898579006D4129 /* FeelicityUITests */,
+				138C305120898576006D4129 /* Products */,
+				30DFF150D5F5053BBF41EEF2 /* Pods */,
+				646B40888A4F5E794DFF5C76 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		138C305120898576006D4129 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				138C305020898576006D4129 /* Feelicity.app */,
+				138C306420898579006D4129 /* FeelicityTests.xctest */,
+				138C306F20898579006D4129 /* FeelicityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		138C305220898577006D4129 /* Feelicity */ = {
+			isa = PBXGroup;
+			children = (
+				138C305320898577006D4129 /* AppDelegate.swift */,
+				138C305520898577006D4129 /* SignInViewController.swift */,
+				138C305720898577006D4129 /* Main.storyboard */,
+				138C13CB213613B20076A629 /* CognitiveDistortionsPopup.swift */,
+				138C13CD2136141A0076A629 /* ReferencesPopup.swift */,
+				131743C321304EAD00FAA9C9 /* TAndCViewController.swift */,
+				131743C1212F7F4500FAA9C9 /* Q20ViewController.swift */,
+				13919A07212A4017009493ED /* ViewController.swift */,
+				13919A032129EB7E009493ED /* emotionsCell.swift */,
+				1382BA59212795EF00C35F08 /* CBTDiagramViewController.swift */,
+				134F99812125073200E10B6C /* User.swift */,
+				134F9983212513B900E10B6C /* Journal.swift */,
+				D4D8351D212752C500225736 /* PreMoodViewController.swift */,
+				D4D83521212789AD00225736 /* Q1ViewController.swift */,
+				D4D8352321278CBA00225736 /* Q2ViewController.swift */,
+				D4D8352521278DF400225736 /* Q3ViewController.swift */,
+				D4D8352721278F3100225736 /* Q4ViewController.swift */,
+				D4D835292127911600225736 /* Q5ViewController.swift */,
+				134F9961212474A800E10B6C /* Q6ViewController.swift */,
+				134F9963212474C900E10B6C /* Q7ViewController.swift */,
+				134F9965212474D900E10B6C /* Q8ViewController.swift */,
+				134F9967212474E700E10B6C /* Q9ViewController.swift */,
+				134F9969212474F500E10B6C /* Q10ViewController.swift */,
+				134F996B2124750200E10B6C /* Q11ViewController.swift */,
+				134F996D2124751500E10B6C /* Q12ViewController.swift */,
+				134F996F2124752D00E10B6C /* Q13ViewController.swift */,
+				134F99712124753800E10B6C /* Q14ViewController.swift */,
+				134F99732124754300E10B6C /* Q15ViewController.swift */,
+				134F99752124754F00E10B6C /* Q16ViewController.swift */,
+				134F99772124755B00E10B6C /* Q17ViewController.swift */,
+				134F99792124756600E10B6C /* Q18ViewController.swift */,
+				134F997B2124757300E10B6C /* Q19ViewController.swift */,
+				13919A052129EDA9009493ED /* Emotions.swift */,
+				135C732F212B3372001FEAA2 /* Thought.swift */,
+				134F997D2124758800E10B6C /* PostMoodViewController.swift */,
+				134F997F2124759800E10B6C /* EndViewController.swift */,
+				134AE0B421139482000C0858 /* SignUpViewController.swift */,
+				1327BCC521000A870008CBF6 /* CBTDefViewController.swift */,
+				1327BCC320FFD64D0008CBF6 /* LogASessionViewController.swift */,
+				138C305A20898579006D4129 /* Assets.xcassets */,
+				138C305C20898579006D4129 /* LaunchScreen.storyboard */,
+				138C305F20898579006D4129 /* Info.plist */,
+				130D579F20F568C500A8CD1D /* GoogleService-Info.plist */,
+				1304F5662168538E00D75A54 /* Feelicity-Bridging-Header.h */,
+			);
+			path = Feelicity;
+			sourceTree = "<group>";
+		};
+		138C306720898579006D4129 /* FeelicityTests */ = {
+			isa = PBXGroup;
+			children = (
+				138C306820898579006D4129 /* FeelicityTests.swift */,
+				138C306A20898579006D4129 /* Info.plist */,
+			);
+			path = FeelicityTests;
+			sourceTree = "<group>";
+		};
+		138C307220898579006D4129 /* FeelicityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				138C307320898579006D4129 /* FeelicityUITests.swift */,
+				138C307520898579006D4129 /* Info.plist */,
+			);
+			path = FeelicityUITests;
+			sourceTree = "<group>";
+		};
+		30DFF150D5F5053BBF41EEF2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75C30687E9CF337D69D524F2 /* Pods-Feelicity.debug.xcconfig */,
+				B8A49CB094FCFB3B6972BF87 /* Pods-Feelicity.release.xcconfig */,
+				C2F0991304A6FB04221AD534 /* Pods-FeelicityTests.debug.xcconfig */,
+				1879F8FD42C5802E621C343E /* Pods-FeelicityTests.release.xcconfig */,
+				40B1EF7E0305471429A9BAA8 /* Pods-FeelicityUITests.debug.xcconfig */,
+				CD29209EA074A8B9DC42D857 /* Pods-FeelicityUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		646B40888A4F5E794DFF5C76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10569E2100D6BE3344592C5D /* Pods_Feelicity.framework */,
+				BAB779971DBACD2B744F2510 /* Pods_FeelicityTests.framework */,
+				FD96EDB7D34BB097FA7D336D /* Pods_FeelicityUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		138C304F20898576006D4129 /* Feelicity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 138C307820898579006D4129 /* Build configuration list for PBXNativeTarget "Feelicity" */;
+			buildPhases = (
+				1D4C20F0F9C4B44E8F59196E /* [CP] Check Pods Manifest.lock */,
+				138C304C20898576006D4129 /* Sources */,
+				138C304D20898576006D4129 /* Frameworks */,
+				138C304E20898576006D4129 /* Resources */,
+				FC1E9CD6A2903F6DFC8B5816 /* [CP] Embed Pods Frameworks */,
+				AFCCAF9765271F60A411CAFD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Feelicity;
+			productName = Feelicity;
+			productReference = 138C305020898576006D4129 /* Feelicity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		138C306320898579006D4129 /* FeelicityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 138C307B20898579006D4129 /* Build configuration list for PBXNativeTarget "FeelicityTests" */;
+			buildPhases = (
+				06DB9FCB0BC8393BE2A048D8 /* [CP] Check Pods Manifest.lock */,
+				138C306020898579006D4129 /* Sources */,
+				138C306120898579006D4129 /* Frameworks */,
+				138C306220898579006D4129 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				138C306620898579006D4129 /* PBXTargetDependency */,
+			);
+			name = FeelicityTests;
+			productName = FeelicityTests;
+			productReference = 138C306420898579006D4129 /* FeelicityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		138C306E20898579006D4129 /* FeelicityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 138C307E20898579006D4129 /* Build configuration list for PBXNativeTarget "FeelicityUITests" */;
+			buildPhases = (
+				4F140FCCEDAE737B8AC77E5F /* [CP] Check Pods Manifest.lock */,
+				138C306B20898579006D4129 /* Sources */,
+				138C306C20898579006D4129 /* Frameworks */,
+				138C306D20898579006D4129 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				138C307120898579006D4129 /* PBXTargetDependency */,
+			);
+			name = FeelicityUITests;
+			productName = FeelicityUITests;
+			productReference = 138C306F20898579006D4129 /* FeelicityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		138C304820898576006D4129 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Feelicity;
+				TargetAttributes = {
+					138C304F20898576006D4129 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1000;
+					};
+					138C306320898579006D4129 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 138C304F20898576006D4129;
+					};
+					138C306E20898579006D4129 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 138C304F20898576006D4129;
+					};
+				};
+			};
+			buildConfigurationList = 138C304B20898576006D4129 /* Build configuration list for PBXProject "Feelicity" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 138C304720898576006D4129;
+			productRefGroup = 138C305120898576006D4129 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				138C304F20898576006D4129 /* Feelicity */,
+				138C306320898579006D4129 /* FeelicityTests */,
+				138C306E20898579006D4129 /* FeelicityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		138C304E20898576006D4129 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138C305E20898579006D4129 /* LaunchScreen.storyboard in Resources */,
+				130D57A020F568C600A8CD1D /* GoogleService-Info.plist in Resources */,
+				138C305B20898579006D4129 /* Assets.xcassets in Resources */,
+				138C305920898577006D4129 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		138C306220898579006D4129 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		138C306D20898579006D4129 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06DB9FCB0BC8393BE2A048D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FeelicityTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D4C20F0F9C4B44E8F59196E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Feelicity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F140FCCEDAE737B8AC77E5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FeelicityUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFCCAF9765271F60A411CAFD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Feelicity/Pods-Feelicity-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Feelicity/Pods-Feelicity-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC1E9CD6A2903F6DFC8B5816 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Feelicity/Pods-Feelicity-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Feelicity/Pods-Feelicity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		138C304C20898576006D4129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1327BCC621000A870008CBF6 /* CBTDefViewController.swift in Sources */,
+				D4D8352621278DF400225736 /* Q3ViewController.swift in Sources */,
+				134F997C2124757300E10B6C /* Q19ViewController.swift in Sources */,
+				134F996E2124751600E10B6C /* Q12ViewController.swift in Sources */,
+				D4D8351E212752C500225736 /* PreMoodViewController.swift in Sources */,
+				135C7330212B3372001FEAA2 /* Thought.swift in Sources */,
+				134F99802124759800E10B6C /* EndViewController.swift in Sources */,
+				134F996C2124750200E10B6C /* Q11ViewController.swift in Sources */,
+				134F9966212474D900E10B6C /* Q8ViewController.swift in Sources */,
+				134F9968212474E700E10B6C /* Q9ViewController.swift in Sources */,
+				134F99702124752D00E10B6C /* Q13ViewController.swift in Sources */,
+				138C305620898577006D4129 /* SignInViewController.swift in Sources */,
+				134F99722124753800E10B6C /* Q14ViewController.swift in Sources */,
+				D4D83522212789AD00225736 /* Q1ViewController.swift in Sources */,
+				13919A042129EB7E009493ED /* emotionsCell.swift in Sources */,
+				134F99822125073200E10B6C /* User.swift in Sources */,
+				13919A08212A4017009493ED /* ViewController.swift in Sources */,
+				134F9964212474C900E10B6C /* Q7ViewController.swift in Sources */,
+				134F997A2124756600E10B6C /* Q18ViewController.swift in Sources */,
+				134F997E2124758800E10B6C /* PostMoodViewController.swift in Sources */,
+				D4D8352821278F3100225736 /* Q4ViewController.swift in Sources */,
+				131743C421304EAD00FAA9C9 /* TAndCViewController.swift in Sources */,
+				134F9984212513B900E10B6C /* Journal.swift in Sources */,
+				134F99782124755B00E10B6C /* Q17ViewController.swift in Sources */,
+				134F99762124754F00E10B6C /* Q16ViewController.swift in Sources */,
+				D4D8352A2127911600225736 /* Q5ViewController.swift in Sources */,
+				13919A062129EDA9009493ED /* Emotions.swift in Sources */,
+				1382BA5A212795EF00C35F08 /* CBTDiagramViewController.swift in Sources */,
+				138C13CC213613B20076A629 /* CognitiveDistortionsPopup.swift in Sources */,
+				134F996A212474F500E10B6C /* Q10ViewController.swift in Sources */,
+				134F99742124754300E10B6C /* Q15ViewController.swift in Sources */,
+				1327BCC420FFD64D0008CBF6 /* LogASessionViewController.swift in Sources */,
+				131743C2212F7F4500FAA9C9 /* Q20ViewController.swift in Sources */,
+				134F9962212474A800E10B6C /* Q6ViewController.swift in Sources */,
+				138C305420898577006D4129 /* AppDelegate.swift in Sources */,
+				134AE0B521139483000C0858 /* SignUpViewController.swift in Sources */,
+				138C13CE2136141A0076A629 /* ReferencesPopup.swift in Sources */,
+				D4D8352421278CBA00225736 /* Q2ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		138C306020898579006D4129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138C306920898579006D4129 /* FeelicityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		138C306B20898579006D4129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138C307420898579006D4129 /* FeelicityUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		138C306620898579006D4129 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 138C304F20898576006D4129 /* Feelicity */;
+			targetProxy = 138C306520898579006D4129 /* PBXContainerItemProxy */;
+		};
+		138C307120898579006D4129 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 138C304F20898576006D4129 /* Feelicity */;
+			targetProxy = 138C307020898579006D4129 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		138C305720898577006D4129 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				138C305820898577006D4129 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		138C305C20898579006D4129 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				138C305D20898579006D4129 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		138C307620898579006D4129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		138C307720898579006D4129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		138C307920898579006D4129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75C30687E9CF337D69D524F2 /* Pods-Feelicity.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95R565AJW6;
+				INFOPLIST_FILE = Feelicity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Feelicity.Feelicity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Feelicity/Feelicity-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		138C307A20898579006D4129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8A49CB094FCFB3B6972BF87 /* Pods-Feelicity.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95R565AJW6;
+				INFOPLIST_FILE = Feelicity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Feelicity.Feelicity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Feelicity/Feelicity-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		138C307C20898579006D4129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2F0991304A6FB04221AD534 /* Pods-FeelicityTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VY6L2QW5JY;
+				INFOPLIST_FILE = FeelicityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Feelicity.FeelicityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Feelicity.app/Feelicity";
+			};
+			name = Debug;
+		};
+		138C307D20898579006D4129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1879F8FD42C5802E621C343E /* Pods-FeelicityTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VY6L2QW5JY;
+				INFOPLIST_FILE = FeelicityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Feelicity.FeelicityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Feelicity.app/Feelicity";
+			};
+			name = Release;
+		};
+		138C307F20898579006D4129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40B1EF7E0305471429A9BAA8 /* Pods-FeelicityUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VY6L2QW5JY;
+				INFOPLIST_FILE = FeelicityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Feelicity.FeelicityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Feelicity;
+			};
+			name = Debug;
+		};
+		138C308020898579006D4129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD29209EA074A8B9DC42D857 /* Pods-FeelicityUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VY6L2QW5JY;
+				INFOPLIST_FILE = FeelicityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Feelicity.FeelicityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Feelicity;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		138C304B20898576006D4129 /* Build configuration list for PBXProject "Feelicity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				138C307620898579006D4129 /* Debug */,
+				138C307720898579006D4129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		138C307820898579006D4129 /* Build configuration list for PBXNativeTarget "Feelicity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				138C307920898579006D4129 /* Debug */,
+				138C307A20898579006D4129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		138C307B20898579006D4129 /* Build configuration list for PBXNativeTarget "FeelicityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				138C307C20898579006D4129 /* Debug */,
+				138C307D20898579006D4129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		138C307E20898579006D4129 /* Build configuration list for PBXNativeTarget "FeelicityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				138C307F20898579006D4129 /* Debug */,
+				138C308020898579006D4129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 138C304820898576006D4129 /* Project object */;
+}

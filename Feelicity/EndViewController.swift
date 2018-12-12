@@ -221,6 +221,8 @@ class EndViewController: UIViewController {
         
         let id = UUID().uuidString
         ref?.child("Journal").child(id).setValue(journal, withCompletionBlock: { (error, snapshot) in
+            // Encrypt the journal data
+            //var encryptedData = SecKeyCreateEncryptedData(publicKey, rsaEncryptionPKCS1, journal, &error)
             self.ref?.child("Users").child(key).child("Journal").child(journal["Date"] as! String).updateChildValues([id: journal["Timestamp"]])
             
         })
